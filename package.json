@@ -1,0 +1,32 @@
+{
+  "author": "yubin",
+  "name": "napi_stb_image",
+  "description": "stb_image bindings with N-API",
+  "version": "0.1.3",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yubin1026/napi_stb_image.git"
+  },
+  "homepage": "https://github.com/yubin1026/napi_stb_image",
+  "keywords": [
+    "napi",
+    "stb_image"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/yubin1026/napi_stb_image/issues"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
