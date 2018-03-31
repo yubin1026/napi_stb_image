@@ -1,1 +1,0 @@
-cmd_Release/napi_stb_image.node := c++ -bundle -undefined dynamic_lookup -framework Cocoa -framework OpenGL -framework OpenAL -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.7 -arch x86_64 -L./Release -stdlib=libc++ -L/usr/local/lib -o Release/napi_stb_image.node Release/obj.target/napi_stb_image/src/napi_stb_image.o 
