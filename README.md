@@ -48,3 +48,6 @@ function draw_image(img, x, y, ww, hh) {
 }
 ```
 
+Screenshot:
+
+[EX_Image](./image/EX_Image.jpeg)
